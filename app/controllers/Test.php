@@ -6,6 +6,11 @@ namespace controllers;
 class Test extends ControllerBase{
 
 	public function index(){
-		echo "hello world";
+		
 	}
+
+	public function message($param="Hello"){
+		echo $param;
+	}
+
 }
